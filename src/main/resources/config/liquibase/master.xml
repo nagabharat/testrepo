@@ -5,6 +5,23 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051618_added_entity_Room.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051619_added_entity_Bills.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051620_added_entity_PettyCash.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051621_added_entity_Employee.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051622_added_entity_MonthOfYear.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051623_added_entity_EmployeeSalary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051624_added_entity_SalaryComponent.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051625_added_entity_EmployeeSalarySlip.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051626_added_entity_Customer.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051627_added_entity_Booking.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20171216051618_added_entity_constraints_Room.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051619_added_entity_constraints_Bills.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051620_added_entity_constraints_PettyCash.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051621_added_entity_constraints_Employee.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051623_added_entity_constraints_EmployeeSalary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051625_added_entity_constraints_EmployeeSalarySlip.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20171216051627_added_entity_constraints_Booking.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>

@@ -7,6 +7,16 @@
             "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
             "entities": {
                 "main": "Entities",
+                "roomMySuffix": "Room",
+                "billsMySuffix": "Bills",
+                "pettyCashMySuffix": "Petty Cash",
+                "employeeMySuffix": "Employee",
+                "monthOfYearMySuffix": "Month Of Year",
+                "employeeSalaryMySuffix": "Employee Salary",
+                "salaryComponentMySuffix": "Salary Component",
+                "employeeSalarySlipMySuffix": "Employee Salary Slip",
+                "customerMySuffix": "Customer",
+                "bookingMySuffix": "Booking",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

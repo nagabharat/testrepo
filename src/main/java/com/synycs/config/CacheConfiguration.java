@@ -43,6 +43,17 @@ public class CacheConfiguration {
             cm.createCache(com.synycs.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(com.synycs.domain.PersistentToken.class.getName(), jcacheConfiguration);
             cm.createCache(com.synycs.domain.User.class.getName() + ".persistentTokens", jcacheConfiguration);
+            cm.createCache(com.synycs.domain.Room.class.getName(), jcacheConfiguration);
+            cm.createCache(com.synycs.domain.Bills.class.getName(), jcacheConfiguration);
+            cm.createCache(com.synycs.domain.PettyCash.class.getName(), jcacheConfiguration);
+            cm.createCache(com.synycs.domain.Employee.class.getName(), jcacheConfiguration);
+            cm.createCache(com.synycs.domain.MonthOfYear.class.getName(), jcacheConfiguration);
+            cm.createCache(com.synycs.domain.EmployeeSalary.class.getName(), jcacheConfiguration);
+            cm.createCache(com.synycs.domain.SalaryComponent.class.getName(), jcacheConfiguration);
+            cm.createCache(com.synycs.domain.EmployeeSalarySlip.class.getName(), jcacheConfiguration);
+            cm.createCache(com.synycs.domain.Customer.class.getName(), jcacheConfiguration);
+            cm.createCache(com.synycs.domain.Booking.class.getName(), jcacheConfiguration);
+            cm.createCache(com.synycs.domain.Booking.class.getName() + ".bookedRooms", jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
